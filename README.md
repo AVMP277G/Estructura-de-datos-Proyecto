@@ -23,9 +23,10 @@ El proyecto se organiza en módulos, cada uno a cargo de un integrante del equip
   - Peso que soportan, condiciones de operación y horas de trabajo.  
   - Tipos de construcción en los que se emplean (viales, urbanas, minería).  
   - Tipo de material que pueden transportar o manipular.
+
 -*Módulo: Indumentaria*
   
---
+
 
 ## 🎯 Objetivos
 - Implementar estructuras de datos para la gestión de vehículos de construcción.  
