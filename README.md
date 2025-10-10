@@ -1,16 +1,16 @@
-# Proyecto: Módulo de Vehículos de Construcción 🚧
+# Proyecto: Módulo de Vehículos de Construcción 
 
-## 📌 Descripción
+## Descripción
 Este proyecto  busca analizar y proponer soluciones relacionadas con el pistón de flota para construcción, aplicable a vehículos de carga pesada como *camiones, grúas, escaladoras* y similares.  
 El objetivo es estudiar su funcionamiento, limitaciones y aplicaciones prácticas en obras de infraestructura y construcción vial. 
 El módulo tiene como objetivo simular la *gestión de vehículos de construcción pesada*, permitiendo realizar operaciones relacionadas con su capacidad, horas de trabajo de la máquina, condiciones para su funcionamiento, tipo de material que soportan y el tipo de construcción en el que se utilizan.  
 
 Los vehículos que se incluyen son:  
-- 🚛 Camiones de carga  
-- 🏗️ Grúas  
-- 🚜 Excavadoras  
-- 🌀 Mezcladoras de concreto  
-- 🚚 Volquetas  
+- Camiones de carga  
+- Grúas  
+- Excavadoras  
+- Mezcladoras de concreto  
+- Volquetas  
 
 ---
 
@@ -28,14 +28,14 @@ El proyecto se organiza en módulos, cada uno a cargo de un integrante del equip
   
 
 
-## 🎯 Objetivos
+## Objetivos
 - Implementar estructuras de datos para la gestión de vehículos de construcción.  
 - Modelar las operaciones principales de cada vehículo en relación con su uso real.  
 - Desarrollar un módulo escalable que permita agregar más vehículos en el futuro.  
 
 ---
 
-## ⚙️ Operaciones del Módulo
+## Operaciones del Módulo
 El módulo permitirá las siguientes operaciones: 
 -  *Registrar vehículos*: tipo, capacidad de carga, características y material que soportan.  
 -  *Listar vehículos*: mostrar todos los vehículos registrados en el sistema. 
@@ -81,7 +81,7 @@ Ejemplo de tabla inicial:
 
 ---
 
-## 🚧 Limitaciones del Proyecto
+## Limitaciones del Proyecto
 - El sistema no contempla el mantenimiento mecánico de los vehículos.   
 - La simulación se centra en *gestión y clasificación*, no en animaciones ni en cálculos físicos reales.  
 - Solo se incluyen los tipos de vehículos previamente definidos.  
@@ -92,14 +92,14 @@ Ejemplo de tabla inicial:
 - Acceso a datos reales de maquinaria usada en el entorno local.
 ---
 
-## 📂 Tecnologías
+## Tecnologías
 - Lenguaje: *JavaScript (ES6)*  
 - Entorno: Navegador / JS bin / Visual Studio Code  
 - Paradigma: Programación Orientada a Objetos y estructuras de datos  
 
 ---
 
-## 📅 Cronograma de Desarrollo
+## Cronograma de Desarrollo
 Hasta el corte: *15 de septiembre*
 
 | Semana | Actividad |
@@ -119,7 +119,7 @@ Hasta el corte: *15 de septiembre*
 
 ---
 
-## 👥 Autores
+## Autores
 - Estudiante: [Angie Valentina Martínez Poveda]  
 - Universidad: [Fundación Universitaria de San Gil - UNISANGIL]  
 - Asignatura: *Estructura de Datos*
