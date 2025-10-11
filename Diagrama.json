@@ -1,0 +1,77 @@
+const gestionFlotas = {
+  proyecto: "Gestión de Flotas para Construcción",
+  modulo: "Vehículos de Carga Pesada",
+  descripcion: "Este modelo ofrece a la empresa una herramienta para planificar, administrar y optimizar el uso de maquinaria y vehículos en proyectos de construcción. Permite controlar costos operativos, mejorar la productividad, garantizar el mantenimiento preventivo y asegurar la disponibilidad de los equipos en el momento adecuado, contribuyendo así a una ejecución más eficiente y rentable de las obras.",
+  
+  objetivos: {
+    generales: [
+      "Optimizar el uso de vehículos y maquinaria pesada en proyectos de construcción.",
+      "Reducir los costos operativos mediante una mejor planificación y mantenimiento.",
+      "Garantizar la disponibilidad de los equipos cuando se necesiten."
+    ],
+    especificos: [
+      "Registrar y monitorear los vehículos de carga pesada.",
+      "Programar mantenimientos preventivos y correctivos.",
+      "Analizar el consumo de combustible y los costos de operación.",
+      "Generar reportes de productividad y utilización de flotas."
+    ]
+  },
+
+  entidades: {
+    vehiculo: {
+      idVehiculo: "VH001",
+      tipo: "Camión Volqueta",
+      marca: "Caterpillar",
+      modelo: "CAT 773G",
+      capacidadToneladas: 50,
+      añoFabricacion: 2020,
+      estado: "Operativo",
+      ubicacionActual: "Obra Central - Zona Norte",
+      kilometraje: 8500,
+      consumoCombustibleLtHora: 12.5,
+      proximoMantenimiento: "2025-11-15"
+    },
+
+    conductor: {
+      idConductor: "CND045",
+      nombre: "Carlos Gómez",
+      licencia: "C3",
+      experienciaAños: 8,
+      contacto: "3124567890",
+      estado: "Activo"
+    },
+
+    mantenimiento: {
+      idMantenimiento: "MTN101",
+      tipo: "Preventivo",
+      fechaProgramada: "2025-11-15",
+      responsable: "Taller Mecánico Central",
+      costoEstimado: 4500000,
+      estado: "Pendiente"
+    }
+  },
+
+  reportes: {
+    usoVehiculos: {
+      periodo: "Octubre 2025",
+      horasOperativas: 180,
+      tiempoInactivo: 40,
+      productividad: "82%"
+    },
+    costos: {
+      combustible: 3200000,
+      mantenimiento: 4500000,
+      totalOperativo: 7700000
+    }
+  },
+
+  funcionalidades: [
+    "Registro y seguimiento de vehículos y maquinaria.",
+    "Gestión de mantenimientos preventivos y correctivos.",
+    "Control de costos de combustible y operación.",
+    "Asignación de vehículos a proyectos específicos.",
+    "Generación de reportes y estadísticas de uso."
+  ]
+};
+
+console.log(gestionFlotas);
