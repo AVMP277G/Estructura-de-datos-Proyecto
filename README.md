@@ -1,7 +1,7 @@
 # Proyecto: Módulo de Vehículos de Construcción 
 
 ## Descripción
-Este proyecto  busca analizar y proponer soluciones relacionadas con el pistón de flota para construcción, aplicable a vehículos de carga pesada como *camiones, grúas, escaladoras* y similares.  
+Este proyecto  busca analizar y proponer soluciones relacionadas con la gestión de flotas para proyectos de construcción, aplicable a vehículos de carga pesada como *camiones, grúas, escaladoras* y similares.  
 El objetivo es estudiar su funcionamiento, limitaciones y aplicaciones prácticas en obras de infraestructura y construcción vial. 
 El módulo tiene como objetivo simular la *gestión de vehículos de construcción pesada*, permitiendo realizar operaciones relacionadas con su capacidad, horas de trabajo de la máquina, condiciones para su funcionamiento, tipo de material que soportan y el tipo de construcción en el que se utilizan.  
 
