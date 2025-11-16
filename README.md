@@ -95,18 +95,34 @@ Ejemplo de tabla inicial:
 ## Tecnologías
 - Lenguaje: *JavaScript (ES6)*  
 - Entorno: Navegador / JS bin / Visual Studio Code  
-- Paradigma: Programación Orientada a Objetos y estructuras de datos  
+- Paradigma: Programación Orientada a Objetos y estructuras de datos
+- HTML
+- CSS
+- JSON / localStorage
+
+## Estructura del proyecto 
+│ index.html  
+│ styles.css  
+│ app.js  
+
+## Funcionalidades  
+- Agregar vehículo  
+- Eliminar vehículo  
+- Eliminar todos  
+- Ver lista actualizada  
+- Historial tipo pila  
+- Persistencia con JSON
 
 ---
 
 ## Cronograma de Desarrollo
-Hasta el corte: *15 de septiembre*
+Hasta el corte: *16 de noviembre*
 
 | Semana | Actividad |
 |--------|-----------|
-| 1 (26 ago - 1 sep) | Definición del tema, análisis de vehículos de construcción, documentación inicial (README). |
-| 2 (2 - 8 sep) | Diseño de estructuras de datos (clases y métodos), definición de operaciones del módulo. |
-| 3 (9 - 15 sep) | Implementación en JavaScript, pruebas básicas, corrección de errores y entrega del corte.(aún no definido) |
+| 1 (26 ago - 8 sep) | Definición del tema, análisis de vehículos de construcción, documentación inicial (README). |
+| 2 (9 - 27 oct) | Diseño de estructuras de datos (clases y métodos), definición de operaciones del módulo. |
+| 3 (4 - 16 nov) | Implementación en JavaScript, pruebas básicas, corrección de errores y entrega del corte.(aún no definido) |
 
 ---
 
