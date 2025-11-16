@@ -6,10 +6,10 @@ vehiculos.push({
   horas: "8-12 h/día",
   construccion: "Vial"
 });
-//Resultado en consola:
+
 console.log("Vehículos registrados:");
 console.log(vehiculos);
-// Mostrar cada campo
+
 console.log("Tipo:", vehiculos[0].tipo);
 console.log("Capacidad:", vehiculos[0].capacidad);
 console.log("Material:", vehiculos[0].material);
