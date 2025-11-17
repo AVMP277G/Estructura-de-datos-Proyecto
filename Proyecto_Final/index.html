@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestión de Vehículos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <button id="openMenu" class="hamburger-btn" aria-label="Abrir menú">☰</button>
+    <h1 class="site-title">Gestión de Vehículos de Construcción</h1>
+    <button id="toggleMode" class="mode-btn">🌙</button>
+  </header>
+
+  <aside id="sidebar" class="sidebar" aria-hidden="true">
+    <h2>Menú</h2>
+
+    <button class="menu-btn" onclick="mostrarForm()">Agregar Vehículo</button>
+    <button class="menu-btn" onclick="listarVehiculos()">Ver Vehículos</button>
+    <button class="menu-btn" onclick="limpiarLista()">Limpiar Lista</button>
+    <button class="menu-btn" onclick="descargarJSON()">Descargar JSON</button>
+
+
+    <hr>
+
+    <h3>Filtros</h3>
+    <select id="filtroTipo" onchange="filtrar()">
+      <option value="">Tipo</option>
+      <option>Camión</option>
+      <option>Volqueta</option>
+      <option>Grúa</option>
+      <option>Excavadora</option>
+      <option>Mezcladora</option>
+    </select>
+
+    <select id="filtroMaterial" onchange="filtrar()">
+      <option value="">Material</option>
+      <option>Arena</option>
+      <option>Grava</option>
+      <option>Tierra</option>
+      <option>Piedra</option>
+      <option>Concreto</option>
+    </select>
+
+    <select id="filtroConstruccion" onchange="filtrar()">
+      <option value="">Construcción</option>
+      <option>Vial</option>
+      <option>Urbana</option>
+      <option>Hidráulica</option>
+      <option>Minería</option>
+    </select>
+  </aside>
+
+  <main id="mainContent" class="main">
+    <div class="page-inner">
+
+      <section class="stats">
+        <div class="stat-card">
+          <h3>Total Vehículos</h3>
+          <p id="statTotal">0</p>
+        </div>
+
+        <div class="stat-card">
+          <h3>Material más usado</h3>
+          <p id="statMaterial">-</p>
+        </div>
+
+        <div class="stat-card">
+          <h3>Promedio Horas</h3>
+          <p id="statHoras">0</p>
+        </div>
+      </section>
+
+      <section id="formSection" class="hidden">
+        <h2>Registrar Vehículo</h2>
+
+        <form id="vehiculoForm">
+          <label>Tipo:</label>
+          <input type="text" id="tipo" required>
+
+          <label>Capacidad (ton):</label>
+          <input type="text" id="capacidad" required>
+
+          <label>Material:</label>
+          <input type="text" id="material" required>
+
+          <label>Horas de operación:</label>
+          <input type="text" id="horas" required>
+
+          <label>Tipo de construcción:</label>
+          <input type="text" id="construccion" required>
+
+          <button type="submit" class="btn-add">Registrar</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Lista de Vehículos Registrados</h2>
+        <ul id="listaVehiculos"></ul>
+      </section>
+
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
